@@ -1,0 +1,41 @@
+#onTimeBtn, #showAllOnTime, #tardyBtn, #showAllTardy, #showAll, #clearAll {
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  margin: 20px 0 10px 4%;
+  border-radius: 8px;
+  color: #6f7576;
+  border-color: blue;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  display: inline-block;
+
+}
+
+#onTime, #tardy{
+  padding: 8px;
+  margin: 10px 4% 0 2%;
+  background-color: #f2f2f2;
+
+}
+
+
+#lateList{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: red;
+
+}
+#onTimeList{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: blue;
+
+}
+
+#allPeople{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: green;
+
+}

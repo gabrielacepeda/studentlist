@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="description" content="Your description goes here">
+   <meta name="keywords" content="one, two, three">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ </head>
+<body>
+ <section class="inputs">
+   <input id="onTime" type="text" placeholder="Name - On Time...">
+   <input id="tardy" type="text" placeholder="Name - Tardy...">
+ </section>
+ <section class="button_container">
+   <button id="onTimeBtn">Add to on Time List</button>
+   <button id="showAllOnTime">Show on time List</button>
+   <button id="tardyBtn">Add to Tardy List</button>
+   <button id="showAllTardy">Show Tardy List</button>
+   <button id="showAll">Show all</button>
+   <button id="clearAll">Clear all</button>
+ </section>
+ <section>
+   <section>
+     <h1>Late students</h1>
+     <ul id="lateList" class="hidden"></ul>
+   </section>
+   <section>
+     <h1>On time students</h1>
+     <ul id="onTimeList" class="hidden"></ul>
+   </section>
+   <section>
+     <h1>All students</h1>
+     <ul id="allPeople" class="hidden"></ul>
+  </section>
+</section>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
